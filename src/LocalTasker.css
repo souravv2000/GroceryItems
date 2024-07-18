@@ -1,0 +1,84 @@
+.Grocery_Container{
+    width: 40rem;
+    /* height: 60vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    padding: 2rem;
+    gap: 1.5rem;
+    background-color: rgb(149, 172, 111);
+    border-radius: 5px;
+}
+h1{
+    color: rgb(144, 37, 92);
+}
+.inputItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.inputItem input{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    width: 15rem;
+    background-color: rgb(142, 204, 180);
+}
+button{
+    width: 7rem;
+    padding: 10px 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+button:active{
+    transform: scale(0.96);
+}
+#add{
+    background-color: green;
+    color: white;
+}
+#clear{
+    background-color: red;
+    color: white;
+}
+#delete{
+    background-color: chocolate;
+    color: white;
+}
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: cadetblue;
+    padding: 10px;
+    border-radius: 5px;
+}
+.items{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+ul{
+    width: 100%;
+}
+li{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 8.5rem;
+    
+}
